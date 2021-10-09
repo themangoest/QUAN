@@ -1,5 +1,4 @@
-# Arduino_Quantizer
-Eurorack format Quantizer with Arduino Nano
+# QUAN
 (based on Hagiwo Modulars original Design)
 
 Feature List:
