@@ -1,0 +1,37 @@
+QUAN,,,
+,,,
+Back PCB,,,
+Amount,Designator,Part Type,Properties
+1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
+2,"c1, c2",Electrolytic Capacitor,"package 0405 [SMD, electrolytic]; capacitance 10µF; voltage 25V"
+5,"c3, c6, c7, c10, c11",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+2,"c4, c5",Electrolytic Capacitor,"package 0605 [SMD, electrolytic]; capacitance 10µF; voltage 6.3V"
+2,"c8, c9",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 22pF; voltage 6.3V"
+1,ic2,Voltage Regulator LM1117,package sot223; features LDO; current 150mA; voltage adjustable; chip LM1117; variant sot223
+1,ic3,SO08,package SO08; true; chip label IC; part # TL071
+1,,Generic double row female header - 6 pins,"package THT; hole size 1.0mm,0.3mm; row double; form ♀ (female); pins 6; pin spacing 0.1in (2.54mm)"
+2,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+1,r1,10k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 10kΩ
+2,"r2, r6",470 Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 470Ω
+2,"r3, r4",3.3k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 3.3kΩ
+1,r5,100k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100kΩ
+1,U1,ATmega328,package tqfp; editable pin labels false; chip label atmega328; variant tqfp32 8mm
+1,U2,MCP4725,package SOT23-6; resolution 12-bit; chip MCP4725; variant sot
+1,VR1,Trimpot 3362P,package 3362P; variant variant 2; part # 5K
+1,Y1,CRYSTAL,package hc49up; variant smd; part # 16Mhz
+,,,
+,,,
+Front PCB,,,
+Amount,Designator,Part Type,Properties
+2,"c1, c2",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 10nF; voltage 6.3V"
+1,c3,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 22pF; voltage 6.3V"
+4,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm)"
+6,d1 - d6,Rectifier Diode,package Melf DO-213 AA [SMD]; type Rectifier; part # bat43
+2,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+1,,"RGB LED (com. anode, rbg)",package 5 mm [THT]; pin order rbg; polarity common anode; rgb RGB
+1,r1,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ
+3,r2-r4,1k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1kΩ
+4,"r5, r7-r9",470 Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 470Ω
+2,"r6, r10",100k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100kΩ
+1,RE1,Rotary Encoder,package THT; type ALPS ec11e; variant variant 2
+1,SW1,ToggleSW_Blue1,variant variant 4
