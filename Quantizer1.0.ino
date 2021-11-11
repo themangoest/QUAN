@@ -769,7 +769,7 @@ const static word CVIN_th_B_oct[62] PROGMEM = {
 void setup() {
 
        pinMode(9, OUTPUT); //Color_LED_R
-       pinMode(8, OUTPUT); //Color_LED_G
+       pinMode(11, OUTPUT); //Color_LED_G
        pinMode(10, OUTPUT); //Color_LED_B
        pinMode(5, OUTPUT); //gate_out
        pinMode(6, INPUT_PULLUP); //Encoder Button 
