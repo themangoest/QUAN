@@ -1,0 +1,10 @@
+QUAN
+OPEN CMD
+
+avrdude -V -p m328p -c usbtiny -e -u -U efuse:w:0x05:m -U hfuse:w:0xde:m -U lfuse:w:0xff:m -U lock:w:0x2f:m
+
+after that
+
+avrdude -V -p m328p -c usbtiny -U flash:w:Quanwith_bootloader.hex
+
+
