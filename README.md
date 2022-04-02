@@ -1,5 +1,4 @@
 # QUAN
-(based on Hagiwo Modulars original Design)
 
 Feature List:
 
@@ -52,4 +51,4 @@ Buffered Output with Scale trimpot for calibraion!
 
 Inputs safe for Eurorack levels.
 
-
+Inspired by Hagiwo
